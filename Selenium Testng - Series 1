@@ -1,0 +1,12 @@
+TestNG is a testing framework designed to simplify a broad range of testing needs.
+
+Writing a test is typically a three-step process:
+- Write the business logic of your test and insert TestNG annotations in your code.
+- Add the information about your test (e.g. the class name, the groups you wish to run, etc...) in a testng.xml file or in build.xml.
+- Run TestNG.
+
+Concepts:
+- A "suite" is represented by one XML file. It can contain one or more tests and is defined by the <suite> tag.
+- A "test" is represented by <test> and can contain one or more TestNG classes.
+- A "TestNG class" is a Java class that contains at least one "TestNG annotation". It is represented by the <class> tag and can contain one or more test methods.
+- A "test method" is a Java method annotated by "@Test" in your source.
